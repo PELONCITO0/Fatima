@@ -1,0 +1,314 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Original Surfer', cursive;
+}
+
+/*header*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+header img{
+    width: 75px;
+    height: 85px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    
+    
+    
+}
+
+.nav{
+    width: 80%;
+   
+}
+
+.navresponsive{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo strong{
+    font-size: 30px;
+    color: rgb(181, 197, 197)
+}
+
+
+.navegacion {
+    font-size: 25px;
+    color: rgb(181, 197, 197);
+    text-decoration: none;
+    transition: 0,2s;
+    
+    
+}
+
+/*MENU*/
+.menu {
+    display: none; 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(181, 197, 197);
+}
+
+
+
+/*navegacion por pestañas*/
+
+.contenidopestañas{
+    
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    
+}
+
+.navegacion.activo{
+    color: rgb(0, 183, 255);
+    text-shadow: 0 0 5px,0 0 5px;
+}
+
+.contenidopestañas.activo{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+/*contenido inicio*/
+
+#subInicio{
+    width: 100%;
+    height: 85vh;;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.presentacion{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.presentacion H1{
+    font-size: 40px;
+    color:rgb(181, 197, 197) ;
+}
+
+.presentacion h3{
+    font-size: 30px;
+    color:rgb(0, 183, 255);
+    margin-bottom: 40px;
+
+}
+
+.presentacion p{
+    font-size: 20px;
+    color: rgb(181, 197, 197);
+}
+
+.container-presentacion{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.botones-presentacion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    display: flex;
+    
+    
+}
+
+.botones-presentacion a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid rgb(0, 183, 255) ;
+    border-radius: 10px;
+    padding: 15px;
+    color: rgb(0, 183, 255);
+   
+   
+    
+}
+
+.imgcontadora img{
+    height: 85vh;
+}
+
+.iconos{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.iconos a{
+    color: aliceblue;
+}
+
+nav a:hover{
+    color: rgb(0, 183, 255);
+    text-shadow: 0 0 5px,0 0 5px;
+    transition: 0.2s;
+}
+.iconos a:hover{
+    color: rgb(0, 183, 255);
+    transition: 0.2s;
+    
+   
+}
+
+.botones-presentacion a:hover{
+    color: white;
+    background-color: rgb(0, 183, 255);
+    text-shadow: 0 0 10px, 0 0 10px;
+    box-shadow: 0 0 10px rgb(0, 183, 255),0 0 10px rgb(0, 183, 255);
+    transition: 0.2s;
+}
+
+.menu :hover{
+    color: rgb(0, 183, 255) ;
+   
+    transition: 0.2s;
+}
+
+/*CONTENIDO ACERCA DE*/
+
+#subAcercaDe{
+    height: 80vh;
+    display: flex;
+    
+    
+
+}
+#subAcercaDe div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em;
+    margin: 3em;
+    align-items: center;
+}
+#subAcercaDe div img{
+    
+    height: 250px;
+    width: 150px;
+}
+
+
+@media screen and (max-width:768px){
+
+    .header.act{
+        background-color: rgb(18, 74, 148);
+        box-shadow: 0 0 5px whitesmoke,0 0 30px whitesmoke;
+    }
+    .logo{
+        margin-left: 3em;
+    }
+    .imgcontadora{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+        margin-top: 10vh;
+    }
+    
+    .imgcontadora img{
+        height: 30vh;
+        
+    }
+    
+    .menu{
+        display: block;
+    }
+
+    .navegacion{
+        margin: 1em 0;
+    }
+    .nav{
+        width: 100%;
+        display: none;  
+    }
+
+    .navresponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+   
+    .nav.mostrar{
+        display: block;
+       }
+    #subInicio{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .presentacion{
+        width: 100%;
+        justify-content: start;
+        height: auto;
+    }
+
+    #btnsobremi{
+        margin-right: 0.4em;
+        font-size: 23px;
+    }
+    #btnhablame{
+        
+        font-size: 23px;
+    }
+
+    .container-presentacion h3{
+        font-size: 27px;
+    }
+   
+    #subAcercaDe{
+        flex-wrap: wrap;
+    
+    }
+}
