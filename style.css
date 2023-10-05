@@ -21,9 +21,7 @@ header{
     padding: 1.5em;
     flex-wrap: wrap;
     width: 100%;
-    
-    
-    
+    height: 15vh;
 }
 
 header img{
@@ -109,7 +107,7 @@ header img{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 86vh;
+    height: 85vh;
     
     
    
@@ -193,6 +191,7 @@ header img{
 .imgcontadora img{
     height: 100%;
     width: 75%;
+    margin-bottom: 2em;
 }
 
 .iconos{
@@ -251,7 +250,7 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     width: 33.33%;
-    height: 81vh;
+    height: 75vh;
     margin: 2.5em;
     border-radius: 3em ;
     box-shadow: 0 0 20px white,0 0 20px white;
@@ -317,6 +316,15 @@ nav a:hover{
 
 @media screen and (max-width:768px){
 
+    .header{
+        height: 100%;
+        box-shadow: 0 0 5px whitesmoke,0 0 30px whitesmoke;
+        background-color: rgb(18, 74, 148);
+        position: sticky;
+        top: 0;
+        padding: 0.7em;
+        
+    }
 
     .header.act{
         background-color: rgb(18, 74, 148);
@@ -357,16 +365,23 @@ nav a:hover{
        .presentacion{
            flex-direction: column-reverse;
            width: 100%;
+           height: 90vh;
+        
        }
-
+       
        .contenido-letra{
        height: auto;
+       
        }
        .contenido-letra h1{
-        font-size: 40px;
+        font-size: 25px;
+       }
+       .contenido-letra h3{
+        font-size: 20px;
        }
        .container-presentacion p{
         margin-top: auto;
+        font-size: 14px;
        }
        .container-presentacion{
         height: 50%;
@@ -374,8 +389,15 @@ nav a:hover{
         
        }
        .container-btn{
-        margin: 1em;
+        margin-top: 2em;
+        margin-bottom: 2em;
        }
+       .botones-presentacion a{
+
+        font-size: 17px;
+
+       }
+
        .imgcontadora{
         height: 50%;
         width: 100%;
@@ -383,7 +405,6 @@ nav a:hover{
        }
        .imgcontadora img{
         width: 60%;
-        
        }
    
     
@@ -394,14 +415,22 @@ nav a:hover{
     }   
     .tarjeta-acercade{
         width: 100%;
-        height: 100vh;
+        height: 100%;
+        margin: 2em;
     }
-
-    .img-tarjeta{
-        
-        width: 90%;
-        height: 40%;
-       
-        
+    .tarjeta-acercade img{
+        width: 100px;
+        height: 100px;
     }
+    .tarjeta-acercade h1{
+        font-size: 15px;
+    }
+    .tarjeta-acercade p{
+        font-size: 12px;
+    }
+    .tarjeta-acercade a{
+        font-size: 13px;
+        padding: 1em;
+    }
+   
 }
