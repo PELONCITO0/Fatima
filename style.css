@@ -252,13 +252,13 @@ nav a:hover{
     height: 75vh;
     margin: 2.5em;
     border-radius: 3em ;
-    box-shadow: 0 0 20px white,0 0 20px white;
+    box-shadow: 0 0 10px white,0 0 10px white;
     padding: 2em;
     
 }
 .tarjeta-acercade:hover{
     
-    box-shadow: 0 0 20px rgb(0, 183, 255),0 0 20px rgb(0, 183, 255);
+    box-shadow: 0 0 10px rgb(0, 183, 255),0 0 10px rgb(0, 183, 255);
     transition: 0.3s;
     
 }
@@ -317,17 +317,22 @@ nav a:hover{
 
     .header{
         height: 100%;
-        box-shadow: 0 0 5px whitesmoke,0 0 30px whitesmoke;
-        background-color: rgb(18, 74, 148);
+        box-shadow: 0 0 5px whitesmoke,0 0 10px whitesmoke;
+        background: #005C97;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         position: sticky;
         top: 0;
         padding: 0.7em;
+        margin-bottom: 1em;
         
     }
 
     .header.act{
-        background-color: rgb(18, 74, 148);
-        box-shadow: 0 0 5px whitesmoke,0 0 30px whitesmoke;
+        background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        box-shadow: 0 0 5px whitesmoke,0 0 10px whitesmoke;
     }
    
     header img{
