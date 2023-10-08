@@ -10,6 +10,45 @@ const front = document.querySelectorAll(".front");
 const back = document.querySelectorAll(".back");
 const BtnFront = document.querySelectorAll(".btn-front");
 const BtnBack = document.querySelectorAll(".btn-back");
+const principal = document.querySelector('#principal1');
+const punto = document.querySelectorAll('#punto1');
+const principa2 = document.querySelector('#principal2');
+const punto2 = document.querySelectorAll('#punto2');
+
+
+punto.forEach ( (cadapuntp, i)=>{
+    
+    punto[i].addEventListener('click',()=>{
+        let posicion = i;
+        let operacion = posicion * -25;
+         
+        principal1.style.transform = `translateX(${ operacion }%)`;
+        
+       
+        punto.forEach ( (cadapuntp, i)=>{
+            punto[i].classList.remove('activo');
+        })
+        punto[i].classList.add('activo');
+
+    })
+})
+punto2.forEach ( (cadapuntp, i)=>{
+    
+    punto2[i].addEventListener('click',()=>{
+        let posicion = i;
+        let operacion = posicion * -20;
+         
+        principal2.style.transform = `translateX(${ operacion }%)`;
+        
+       
+        punto2.forEach ( (cadapuntp, i)=>{
+            punto2[i].classList.remove('activo');
+        })
+        punto2[i].classList.add('activo');
+
+    })
+})
+
 
 BtnFront.forEach((btncarta,i)=>{
     BtnFront[i].addEventListener('click',()=>{
