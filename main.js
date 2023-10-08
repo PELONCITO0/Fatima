@@ -72,7 +72,6 @@ botmostrar.addEventListener('click',()=>{
     botcerrar.classList.add('mostrar')
     botmostrar.style.display = 'none'
     botcerrar.addEventListener('click',()=>{
-        header.classList.add('act')
         botcerrar.classList.remove('mostrar')
         menu.classList.remove('mostrar')
         botmostrar.style.display = 'block'
