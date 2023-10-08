@@ -6,9 +6,24 @@ const header = document.querySelector(".header")
 const botmostrar = document.querySelector(".menu");
 const btnsobremi = document.querySelector("#btnsobremi");
 const btnhablame = document.querySelector("#btnhablame");
+const front = document.querySelectorAll(".front");
+const back = document.querySelectorAll(".back");
+const BtnFront = document.querySelectorAll(".btn-front");
+const BtnBack = document.querySelectorAll(".btn-back");
 
+BtnFront.forEach((btncarta,i)=>{
+    BtnFront[i].addEventListener('click',()=>{
+        front[i].style.transform = 'rotateY(180deg)';
+        back[i].style.transform = 'rotateY(360deg)'; 
+        
+        
+    })
 
-
+    BtnBack[i].addEventListener('click',()=>{
+        front[i].style.transform = 'rotateY(360deg)';
+        back[i].style.transform = 'rotateY(180deg)'; 
+    })
+})
 
 
 botmostrar.addEventListener('click',()=>{
