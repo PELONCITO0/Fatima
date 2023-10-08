@@ -68,12 +68,29 @@ header img{
 }
 
 /*MENU*/
+.btn-nav{
+    position: relative;
+}
+
 .menu {
     display: none; 
     background-color: transparent;
     border: none;
     cursor: pointer;
     color: rgb(181, 197, 197);
+    position: absolute;
+}
+
+.cerrar{
+    visibility: hidden;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(181, 197, 197);
+}
+
+.cerrar.mostrar{
+    visibility: visible;
 }
 
 
@@ -280,7 +297,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
     border-radius: 3em;
     color: white;
     text-align: center;
@@ -301,7 +318,7 @@ nav a:hover{
 }
 
 .back{
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.4);;
     transform: rotateY(180deg);
     border-radius: 3em;
     position: absolute;
@@ -312,7 +329,7 @@ nav a:hover{
     height: 100%;
     transition: 1s;
     backface-visibility: hidden;
-    box-shadow: 0 0 10px rgb(250, 250, 250),0 0 10px rgb(248, 249, 250);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn-back{
@@ -397,7 +414,7 @@ nav a:hover{
 .carrousel .punto.activo{
     background-color: rgb(0, 183, 255);
     box-shadow: 0px 0px 10px rgba(0, 183, 255, 0.5);
-    
+    transform: scale(1.7);
 }
 
 

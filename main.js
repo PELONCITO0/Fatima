@@ -4,6 +4,7 @@ const contenidopestañas = document.querySelectorAll(".contenidopestañas");
 const menu  = document.querySelector(".nav");
 const header = document.querySelector(".header")
 const botmostrar = document.querySelector(".menu");
+const botcerrar = document.querySelector(".cerrar");
 const btnsobremi = document.querySelector("#btnsobremi");
 const btnhablame = document.querySelector("#btnhablame");
 const front = document.querySelectorAll(".front");
@@ -66,11 +67,21 @@ BtnFront.forEach((btncarta,i)=>{
 
 
 botmostrar.addEventListener('click',()=>{
-    menu.classList.toggle('mostrar')
-    header.classList.toggle('act')
+    menu.classList.add('mostrar')
+    header.classList.add('act')
+    botcerrar.classList.add('mostrar')
+    botmostrar.style.display = 'none'
+    botcerrar.addEventListener('click',()=>{
+        header.classList.add('act')
+        botcerrar.classList.remove('mostrar')
+        menu.classList.remove('mostrar')
+        botmostrar.style.display = 'block'
+    })
     navegacion.forEach((nav,i)=>{
     navegacion[i].addEventListener('click',()=>{
         header.classList.remove('act')
+        botcerrar.classList.remove('mostrar')
+        botmostrar.style.display = 'block'
     })
    })
 }
