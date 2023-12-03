@@ -444,8 +444,8 @@ nav a:hover{
     width: 80%;
 }
 .perfil-contacto img{
-    width: 45%;
-    height: 80%;
+    width: 50%;
+    height: 100%;
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
@@ -609,7 +609,8 @@ nav a:hover{
        }
 
        .perfil-contacto img{
-        height: 60%;
+        height: 80%;
+        width: 50%;
         margin-top: 1em;
        }
    
