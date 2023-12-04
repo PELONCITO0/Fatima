@@ -6,9 +6,7 @@
 }
 
 body{
-    background: #005C97;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FDFDFD;  /* fallback for old browsers */
     font-family: 'Original Surfer', cursive;
 }
 
@@ -18,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5em;
+    padding: 2em;
     flex-wrap: wrap;
     width: 100%;
     height: 15vh;
@@ -54,13 +52,13 @@ header img{
 
 .logo strong{
     font-size: 30px;
-    color: rgb(181, 197, 197)
+    color: #0D1321;
 }
 
 
 .navegacion {
-    font-size: 25px;
-    color: rgb(181, 197, 197);
+    font-size: 30px;
+    color: #0D1321;
     text-decoration: none;
     
     
@@ -77,7 +75,7 @@ header img{
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: rgb(181, 197, 197);
+    color: #0D1321;
     position: absolute;
 }
 
@@ -86,7 +84,7 @@ header img{
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: rgb(181, 197, 197);
+    color: #0D1321;
 }
 
 
@@ -102,8 +100,11 @@ header img{
 }
 
 .navegacion.activo{
-    color: rgb(0, 183, 255);
-    text-shadow: 0 0 5px,0 0 5px;
+    color: black;
+    text-shadow: 0 0 1.5px,0 0 1.5px;
+    border: 3px solid  #0D1321;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .contenidopestañas.activo{
@@ -124,8 +125,6 @@ header img{
     justify-content: space-around;
     width: 100%;
     height: 85vh;
-    
-    
    
 }
 .container-presentacion{
@@ -133,44 +132,47 @@ header img{
    
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
    width: 50%;
    
+
 }
 .contenido-letra{
-    height: 55%;
+    height: 80%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    text-align: center;
 }
 .presentacion H1{
-    font-size: 40px;
-    color:rgb(181, 197, 197) ;
-    text-align: center;
+    font-size: 65px;
+    color:#0D1321 ;
+    
 }
 
 .presentacion h3{
-    font-size: 30px;
-    color:rgb(0, 183, 255);
-    text-align: center;
+    font-size: 50px;
+    color:#E7D7C9;
+    
 
 }
 
 .presentacion p{
-    font-size: 20px;
-    color: rgb(181, 197, 197);
-    text-align: center;
-    padding: 1em;
+    font-size: 25px;
+    color: #0D1321;
     margin-top: 1.5em;
     width: 100%;
+    text-align: justify;
 }
 
 .container-btn{
-    height: 30%;
-    width: 100%;
+    
+    height: 40%;
+    width: 75%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
 }
 .botones-presentacion{
@@ -184,10 +186,10 @@ header img{
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    border: 2px solid rgb(0, 183, 255) ;
+    border: 2px solid #A38F85 ;
     border-radius: 10px;
     padding: 15px;
-    color: rgb(0, 183, 255);
+    color: #A38F85;
     
    
    
@@ -221,16 +223,16 @@ header img{
 }
 
 .iconos a{
-    color: aliceblue;
+    color: #A38F85;
 }
 
 nav a:hover{
-    color: rgb(0, 183, 255);
-    text-shadow: 0 0 5px,0 0 5px;
+    color: #0D1321;
+    text-shadow: 0 0 2px,0 0 2px;
     transition: 0.3s;
 }
 .iconos a:hover{
-    color: rgb(0, 183, 255);
+    
     transition: 0.3s;
     
    
@@ -238,14 +240,14 @@ nav a:hover{
 
 .botones-presentacion a:hover{
     color: white;
-    background-color: rgb(0, 183, 255);
+    background-color: #A38F85;
     text-shadow: 0 0 10px, 0 0 10px;
-    box-shadow: 0 0 10px rgb(0, 183, 255),0 0 10px rgb(0, 183, 255);
+    box-shadow: 0 0 10px #A38F85,0 0 10px #A38F85;
     transition: 0.3s;
 }
 
 .menu :hover{
-    color: rgb(0, 183, 255) ;
+    color: #0D1321 ;
     transition: 0.3s;
 }
 
@@ -297,14 +299,14 @@ nav a:hover{
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 3em;
-    color: white;
+    color: #D4B2A7;
     text-align: center;
     height: 100%;
     width: 100%;
 }
 
 .btn-front{
-    color: rgb(0, 183, 255);
+    color: #EDE9E3;
     font-size: 23px;
     text-decoration: underline;
     cursor: pointer;
@@ -312,7 +314,7 @@ nav a:hover{
 }
 
 .content-tarjet a:hover{
-    text-shadow: 0 0 10px rgb(0, 183, 255), 0 0 10px rgb(0, 183, 255);
+    text-shadow: 0 0 10px #EDE9E3, 0 0 10px #EDE9E3;
 }
 
 .back{
@@ -327,11 +329,11 @@ nav a:hover{
     height: 100%;
     transition: 1s;
     backface-visibility: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .btn-back{
-    color: rgb(0, 183, 255);
+    color: #EDE9E3;
     font-size: 23px;
     text-decoration: underline;
     cursor: pointer;
@@ -339,11 +341,11 @@ nav a:hover{
 }
 
 .btn-back:hover{
-    text-shadow: 0 0 10px rgb(0, 183, 255), 0 0 10px rgb(0, 183, 255);
+    text-shadow: 0 0 10px #EDE9E3, 0 0 10px #EDE9E3;
 }
 
 .front:hover{
-    box-shadow: 0 0 20px white ;
+    box-shadow: 0 0 20px rgb(0, 0, 0) ;
 }
 
 .carrousel{
@@ -376,7 +378,7 @@ nav a:hover{
 
 .carrousel .content-carrousel{
     width: calc( 100%/4 );
-    color: white;
+    color: #EDE9E3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -396,7 +398,7 @@ nav a:hover{
 .carrousel .punto{
     width: 1em;
     height: 1em;
-    background-color: aliceblue;
+    background-color: #EDE9E3;
     border-radius: 100%;
     box-shadow: 0px 0px 10px rgba(255, 254, 254, 0.5);
     cursor: pointer;   
@@ -404,14 +406,14 @@ nav a:hover{
 
 }
 .carrousel .punto:hover{
-    background-color: rgb(0, 183, 255);
-    box-shadow: 0 0 5px rgb(0, 183, 255),0 0 5px rgb(0, 183, 255);    
+    background-color: black;
+    box-shadow: 0 0 5px #EDE9E3,0 0 5px #EDE9E3;    
 
 }
 
 .carrousel .punto.activo{
-    background-color: rgb(0, 183, 255);
-    box-shadow: 0px 0px 10px rgba(0, 183, 255, 0.5);
+    background-color: #D4B2A7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transform: scale(1.7);
 }
 
@@ -433,7 +435,7 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgb(255, 255, 255);
     border-radius: 2em;
     text-align: center;
     padding: 2.5em;
@@ -451,9 +453,8 @@ nav a:hover{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 .perfil-contacto h3{
-   text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
    font-size: 23px;
-   color: rgb(0, 183, 255);
+   color: black;
 }
 
 .redes{
@@ -471,24 +472,24 @@ nav a:hover{
     border-radius: 1em;
     height: 100%;
     margin: 0.7em;
-    background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #D4B2A7;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     transition: 1s;
     cursor: pointer;
 }
 .separacion-redes:hover{
     transform: scale(1.1);
-    box-shadow: 0px 10px 20px #005C97;
+    box-shadow: 0px 10px 20px black;
 }
 .separacion-redes a{
     text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     font-size: 20px;
-    color:whitesmoke ;
+    color:black ;
 }
 
 .separacion-redes svg{
-    color: #d0d8e1;
+    color: black;
 }
 
 
@@ -497,9 +498,7 @@ nav a:hover{
     .header{
         height: 100%;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-        background: #005C97;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       background-color: #EDE9E3;
         position: sticky;
         top: 0;
         padding: 0.5em;
@@ -508,9 +507,7 @@ nav a:hover{
     }
 
     .header.act{
-        background: #005C97;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #EDE9E3;
        
     }
    
@@ -524,12 +521,17 @@ nav a:hover{
     .menu{
         visibility: visible;
     }
+
     .cerrar.mostrar{
         visibility: visible;
     }
 
+    .logo strong{
+        font-size: 30px;
+    }
     .navegacion{
         margin: 1em 0;
+        font-size: 25px;
     }
     .nav{
         width: 100%;
@@ -556,6 +558,8 @@ nav a:hover{
        
        .contenido-letra{
        height: auto;
+       width: 100%;
+       padding: 1.5em;
        
        }
        .contenido-letra h1{
@@ -565,7 +569,7 @@ nav a:hover{
         font-size: 25px;
        }
        .container-presentacion p{
-        margin-top: auto;
+        margin-top: 2em;
         font-size: 20px;
        }
        .container-presentacion{
@@ -584,12 +588,12 @@ nav a:hover{
        }
 
        .imgcontadora{
-        height: 50%;
+        height: 30%;
         width: 100%;
         
        }
        .imgcontadora img{
-        width: 60%;
+        width: 55%;
        }
 
        
