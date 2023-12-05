@@ -553,11 +553,12 @@ nav a:hover{
        .presentacion{
            flex-direction: column-reverse;
            width: 100%;
+           height: 100%;
         
        }
        
        .contenido-letra{
-       height: auto;
+       
        width: 100%;
        padding: 1.5em;
        
@@ -588,12 +589,13 @@ nav a:hover{
        }
 
        .imgcontadora{
-        height: 30%;
+        height: 50%;
         width: 100%;
         
        }
        .imgcontadora img{
         width: 55%;
+    
        }
 
        
