@@ -6,8 +6,7 @@
 }
 
 body{
-    background: rgb(176,176,176);
-    background: linear-gradient(180deg, rgba(176,176,176,1) 35%, rgba(93,93,93,1) 100%);
+    background-color: #808080;
     font-family: 'Original Surfer', cursive;
 }
 
