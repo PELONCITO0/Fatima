@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: #808080;
+    background: rgb(0,110,223);
+    background: linear-gradient(180deg, rgba(0,110,223,1) 33%, rgba(0,74,148,1) 100%);
     font-family: 'Original Surfer', cursive;
 }
 
@@ -24,8 +25,8 @@ header{
 }
 
 header img{
-    width: 75px;
-    height: 85px;
+    width: 65px;
+    height: 75px;
     
 }
 
@@ -49,13 +50,14 @@ header img{
 
 .logo strong{
     font-size: 30px;
-    color: #262626;
+    color: #002651;
+    padding: 0.5em;
 }
 
 
 .navegacion {
     font-size: 30px;
-    color: #4f4f4f;
+    color: #F8F6F0;
     text-decoration: none;
     
     
@@ -97,11 +99,9 @@ header img{
 }
 
 .navegacion.activo{
-    color: #262626;
-    text-shadow: 0 0 1.5px,0 0 1.5px;
-    border: 3px solid  #262626;
-    padding-right: 20px;
-    padding-left: 20px;
+    color: #20a8ff;
+    text-shadow: 0 0 2px,0 0 2px;
+    
 }
 
 .contenidopestañas.activo{
@@ -145,19 +145,19 @@ header img{
 }
 .presentacion H1{
     font-size: 65px;
-    color: white;
+    color: #F8F6F0;
 }
 
 .presentacion h3{
     font-size: 50px;
-    color:#e7e7e7;
+    color:#b2dfff;
     
 
 }
 
 .presentacion p{
     font-size: 25px;
-    color: #e7e7e7;
+    color: #F8F6F0;
     margin-top: 1.5em;
     width: 100%;
     text-align: justify;
@@ -183,10 +183,10 @@ header img{
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    border: 2px solid #262626;
+    border: 2px solid #20a8ff;
     border-radius: 10px;
     padding: 15px;
-    color: #262626;
+    color: #20a8ff;
     
     
    
@@ -225,9 +225,9 @@ header img{
 }
 
 nav a:hover{
-    color: #0D1321;
+    color: #20a8ff;
     text-shadow: 0 0 2px,0 0 2px;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .iconos a:hover{
     
@@ -238,10 +238,11 @@ nav a:hover{
 
 .botones-presentacion a:hover{
     color: white;
-    background-color: #262626;
+    background-image: linear-gradient(to left, #20a8ff, #008dff);
     text-shadow: 0 0 10px, 0 0 10px;
-    box-shadow: 0 0 10px #262626,0 0 10px #262626;
-    transition: 0.3s;
+    box-shadow: 0 0 10px #0057b4,0 0 10px #0057b4;
+    transition: 0.2s;
+    border: none;
 }
 
 .menu :hover{
@@ -266,7 +267,7 @@ nav a:hover{
 .tarjeta-acercade{
     position: relative;
     width: 30%;
-    height: 77vh;
+    height: 80vh;
     border-radius: 3em;
     margin: 0.6em;
 }
@@ -502,7 +503,7 @@ nav a:hover{
     .header{
         height: 100%;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-        background-color: #b0b0b0;
+        background-color: #0057b4;
         position: sticky;
         top: 0;
         padding: 0.5em;
@@ -511,7 +512,7 @@ nav a:hover{
     }
 
     .header.act{
-        background-color: #b0b0b0;
+        background-color: #0057b4;
        
     }
    
