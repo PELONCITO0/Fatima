@@ -17,16 +17,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em;
+    padding: 0em 2.1em;
     flex-wrap: wrap;
     width: 100%;
     height: 15vh;
-   
 }
 
 .logo img{
-    width: 3.2em;
-    height: 4.2em;
+    width: 4.5em;
+    height: 5.5em;
     
 }
 
@@ -34,6 +33,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 20%;
     
 }
 
@@ -49,14 +49,14 @@ header{
 }
 
 .logo strong{
-    font-size: 1.7em;
+    font-size: 2.5em;
     color: #002651;
     padding: 0.5em;
 }
 
 
 .navegacion {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #F8F6F0;
     text-decoration: none;
     
@@ -119,78 +119,65 @@ header{
    
   
     display: flex;
-    justify-content: space-around;
     width: 100%;
     height: 85vh;
    
 }
 .container-presentacion{
+  width: 50%; 
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   
-   
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   width: 50%;
-   
-
 }
 .contenido-letra{
-    height: 80%;
-    width: 80%;
+    height: 85%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    text-align: center;
-}
+    justify-content: center;
+    padding: 1em;
+  }
+  
+
 .presentacion H1{
-    font-size: 2.2em;
+    font-size: 2.3em;
     color: #F8F6F0;
 }
 
 .presentacion h3{
-    font-size: 1.6em;
     color:#b2dfff;
-    
-
+    font-size: 2em;
 }
 
 .presentacion p{
-    font-size: 1.2em;
-    color: #F8F6F0;
+    font-size: 1.5em;
     margin-top: 1.5em;
-    width: 100%;
-    text-align: justify;
+    color: #F8F6F0;
 }
 
 .container-btn{
-    
-    height: 40%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 100%; 
+    height: 15%;
 }
 .botones-presentacion{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   
    
 }
 
 .botones-presentacion a{
     text-align: center;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border: 0.1em solid #20a8ff;
     border-radius: 0.4em;
     padding: 0.7em;
     color: #20a8ff;
-    
-    
-   
-   
     
 }
 
@@ -246,17 +233,18 @@ nav a:hover{
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
-    padding: 1em;
+    
     
 }
 
 
 .tarjeta-acercade{
     position: relative;
-    width: 30%;
-    height: 80vh;
+    width: 31%;
+    height: 85vh;
     border-radius: 3em;
-    margin: 0.6em;
+    margin: 0.3em 0.1em;
+    
 }
 
 
@@ -276,31 +264,33 @@ nav a:hover{
     justify-content: center;
     transition: 1s;
     backface-visibility: hidden;
-
+    
 }
 
 .content-tarjet{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 3em;
     color: #d1d1d1;
     text-align: center;
-    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
+    height: 100%;
 }
 
 .btn-front{
     color: #EDE9E3;
-    font-size: 23px;
+    font-size: 1.4em;
     text-decoration: underline;
     cursor: pointer;
+    width: fit-content;
     
 }
 
 .content-tarjet a:hover{
-    text-shadow: 0 0 10px #EDE9E3, 0 0 10px #EDE9E3;
+    text-shadow: 0 0 10px #20a8ff, 0 0 10px #20a8ff;
+    color: #20a8ff;
 }
 
 .back{
@@ -319,15 +309,15 @@ nav a:hover{
 }
 
 .btn-back{
-    color: #EDE9E3;
-    font-size: 23px;
+    color: #20a8ff;
+    font-size: 1.4em;
     text-decoration: underline;
     cursor: pointer;
-   
+    
 }
 
 .btn-back:hover{
-    text-shadow: 0 0 10px #EDE9E3, 0 0 10px #EDE9E3;
+    text-shadow: 0 0 10px #20a8ff, 0 0 10px #20a8ff;
 }
 
 .front:hover{
@@ -340,11 +330,14 @@ nav a:hover{
     padding: 1em;
     overflow: hidden;
 }
-.carrousel a{
+
+
+.volver-back{
     display: flex;
     justify-content: center;
-    height: 10%;
     align-items: center;
+    height: 10%;
+    font-size: 1em;
 }
 
 
@@ -412,34 +405,37 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    padding: 0.5em;
+    
 }
 .contacto{
-    height: 100%;
+    height: 85vh;
     width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #4f4f4f;
+    background-image: linear-gradient(to right, #004a94, #002651);
     border-radius: 2em;
     text-align: center;
-    padding: 2.5em;
+    padding: 1em;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1em;
 }
 .perfil-contacto{
     height: 25%;
     width: 80%;
+    padding: 1em;
 }
 .perfil-contacto img{
-    width: 50%;
-    height: 100%;
+    height: 10em;
+    width: 10em;
     border-radius: 100%;
     background-color: #f6f6f6;
     box-shadow: -1px 1px 5px #f6f6f6;
 }
 .perfil-contacto h3{
-   font-size: 23px;
+   font-size: 1.2em;
    color: #f6f6f6;
 }
 
@@ -456,21 +452,21 @@ nav a:hover{
     justify-content: space-evenly;
     align-items: center;
     border-radius: 1em;
-    height: 100%;
-    margin: 0.7em;
-    background-color: #808080;
+    height: 15%;
+    margin: 0.5em;
+    background-color: #006edf;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    transition: 1s;
+    transition: 0.3s;
     cursor: pointer;
 }
 .separacion-redes:hover{
     transform: scale(1.1);
-    box-shadow: 0px 5px 20px #f6f6f6;
+    box-shadow: 0px 5px 20px #006edf;
 }
 .separacion-redes a{
     text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1em;
     color:#f6f6f6 ;
 }
 
@@ -484,6 +480,11 @@ nav a:hover{
     height: 100vh;
 }
 
+@media screen and (max-width:1440px){
+    .contacto{
+        width: 33%;
+    }
+}
 
 @media screen and (max-width:768px){
 
@@ -494,13 +495,24 @@ nav a:hover{
         position: sticky;
         top: 0;
         z-index: 100;
+        padding: 0em 1em;
     }
 
     .header.act{
         background-color: #0057b4;
-       
+    }
+    .logo{
+        width: auto;
+        padding: none;
     }
 
+    .logo img{
+        height: 3em;
+        width: 2em;
+    }
+    .logo strong{
+        font-size: 1.6em;
+    }
     .menu{
         visibility: visible;
     }
@@ -510,7 +522,8 @@ nav a:hover{
     }
 
     .navegacion{
-        margin: 1em 0;
+        margin: 0.7em 0;
+        font-size: 1.5em;
     }
     .nav{
         width: 100%;
@@ -529,52 +542,62 @@ nav a:hover{
         display: block;
        }
  
-       .presentacion{
+    .presentacion{
            flex-direction: column-reverse;
            width: 100%;
-           height: 100%;
+           height: 100vh;
         
-       }
+    }
        
-       .contenido-letra{
+    .contenido-letra{
        
-       width: 100%;
-       padding: 1.5em;
-       
-       }
-       
-       
-      
-       .container-presentacion{
-        height: 50%;
         width: 100%;
-        
-       }
-       .container-btn{
-        margin-top: 2em;
-        margin-bottom: 2em;
-       }
-       
+        padding: 1em;
+    }
 
-       .imgcontadora{
+    .contenido-letra h1{
+        font-size: 1.6em;
+    }
+
+    .contenido-letra h3{
+        font-size: 1.4em;
+    }
+
+    .contenido-letra p{
+        font-size: 1.2em;
+    }
+        
+    .container-presentacion{
         height: 50%;
         width: 100%;
         
-       }
-       .imgcontadora img{
+    }
+    .container-btn{
+        padding: 0.1em;
+    }
+    
+    .botones-presentacion a{
+        font-size: 1.2em;
+    }
+    .imgcontadora{
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .imgcontadora img{
         width: 55%;
     
-       }
-
-       
-       .tarjeta-acercade{
+    }
+  
+    .tarjeta-acercade{
         width: 100%;
         height: 60vh;
        }
       
        .pestaña-contacto{
         padding: 1em;
-        height: 90vh;
+        height: 94vh;
        }
        .contacto{
         width: 96%;
@@ -582,9 +605,6 @@ nav a:hover{
         padding: 0.2em;
        }
 
-       .perfil-contacto img{
-        width: 50%;
-        margin-top: 1em;
-       }
-   
+       
 }
+
