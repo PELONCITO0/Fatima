@@ -17,16 +17,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2em;
+    padding: 1em;
     flex-wrap: wrap;
     width: 100%;
     height: 15vh;
-    
+   
 }
 
-header img{
-    width: 65px;
-    height: 75px;
+.logo img{
+    width: 3.2em;
+    height: 4.2em;
     
 }
 
@@ -49,14 +49,14 @@ header img{
 }
 
 .logo strong{
-    font-size: 30px;
+    font-size: 1.7em;
     color: #002651;
     padding: 0.5em;
 }
 
 
 .navegacion {
-    font-size: 30px;
+    font-size: 1.5em;
     color: #F8F6F0;
     text-decoration: none;
     
@@ -144,19 +144,19 @@ header img{
     text-align: center;
 }
 .presentacion H1{
-    font-size: 65px;
+    font-size: 2.2em;
     color: #F8F6F0;
 }
 
 .presentacion h3{
-    font-size: 50px;
+    font-size: 1.6em;
     color:#b2dfff;
     
 
 }
 
 .presentacion p{
-    font-size: 25px;
+    font-size: 1.2em;
     color: #F8F6F0;
     margin-top: 1.5em;
     width: 100%;
@@ -182,10 +182,10 @@ header img{
 .botones-presentacion a{
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
-    border: 2px solid #20a8ff;
-    border-radius: 10px;
-    padding: 15px;
+    font-size: 1.2em;
+    border: 0.1em solid #20a8ff;
+    border-radius: 0.4em;
+    padding: 0.7em;
     color: #20a8ff;
     
     
@@ -210,19 +210,6 @@ header img{
     margin-bottom: 2em;
 }
 
-.iconos{
-    width: 100%;
-    display: flex;
-    padding: 5px;
-    margin-top: 20px;
-    justify-content: space-evenly;
-    
-    
-}
-
-.iconos a{
-    color: #A38F85;
-}
 
 nav a:hover{
     color: #20a8ff;
@@ -506,23 +493,14 @@ nav a:hover{
         background-color: #0057b4;
         position: sticky;
         top: 0;
-        padding: 0.5em;
         z-index: 100;
-        
     }
 
     .header.act{
         background-color: #0057b4;
        
     }
-   
-    header img{
-        width: 55px;
-        height: 55px;
-        
-    }
-    
-    
+
     .menu{
         visibility: visible;
     }
@@ -531,12 +509,8 @@ nav a:hover{
         visibility: visible;
     }
 
-    .logo strong{
-        font-size: 30px;
-    }
     .navegacion{
         margin: 1em 0;
-        font-size: 25px;
     }
     .nav{
         width: 100%;
@@ -568,16 +542,9 @@ nav a:hover{
        padding: 1.5em;
        
        }
-       .contenido-letra h1{
-        font-size: 30px;
-       }
-       .contenido-letra h3{
-        font-size: 25px;
-       }
-       .container-presentacion p{
-        margin-top: 2em;
-        font-size: 20px;
-       }
+       
+       
+      
        .container-presentacion{
         height: 50%;
         width: 100%;
@@ -587,11 +554,7 @@ nav a:hover{
         margin-top: 2em;
         margin-bottom: 2em;
        }
-       .botones-presentacion a{
-
-        font-size: 20px;
-
-       }
+       
 
        .imgcontadora{
         height: 50%;
