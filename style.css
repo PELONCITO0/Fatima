@@ -24,8 +24,8 @@ header{
 }
 
 .logo img{
-    width: 4.5em;
-    height: 5.5em;
+    width: 4.2em;
+    height: 5.2em;
     
 }
 
@@ -49,7 +49,7 @@ header{
 }
 
 .logo strong{
-    font-size: 2.5em;
+    font-size: 2.2em;
     color: #002651;
     padding: 0.5em;
 }
@@ -410,7 +410,7 @@ nav a:hover{
     
 }
 .contacto{
-    height: 85vh;
+    height: 84vh;
     width: 25%;
     display: flex;
     justify-content: space-between;
@@ -421,17 +421,16 @@ nav a:hover{
     text-align: center;
     padding: 1em;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-    
+
 }
 .perfil-contacto{
     height: 25%;
-    width: 80%;
     
     
 }
 .perfil-contacto img{
-    height: 7.5em;
-    width: 7.5em;
+    height: 10em;
+    width: 10em;
     border-radius: 100%;
     background-color: #f6f6f6;
     box-shadow: -1px 1px 5px #f6f6f6;
@@ -447,7 +446,8 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 90%;
+    width: 100%;
+    padding: 0.7em;
     
 }
 
@@ -457,12 +457,11 @@ nav a:hover{
     align-items: center;
     border-radius: 1em;
     height: 15%;
-    margin: 0.5em;
     background-color: #006edf;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     cursor: pointer;
-    
+    width: 100%;
 }
 .separacion-redes:hover{
     transform: scale(1.1);
@@ -561,7 +560,7 @@ nav a:hover{
     .contenido-letra{
        
         width: 100%;
-        padding: 1em;
+        padding: 0.4em;
     }
 
     .contenido-letra h1{
@@ -582,8 +581,8 @@ nav a:hover{
         
     }
     .container-btn{
-        margin-bottom: 0.6em;
-        margin-top: 1em;
+        margin-bottom: 0.8em;
+        margin-top: 4.5em;
     }
     
     .botones-presentacion a{
@@ -607,28 +606,18 @@ nav a:hover{
        }
       
     .pestaña-contacto{
-        padding: 0em 1em;
-        height: 100%;
+        padding: 1em 1em;
+        height: 100vh;
     }
 
-    .perfil-contacto{
-        margin-bottom: 3em;
-    }
-    
     .contacto{
         width: 100%;
-        height: 100%;
-        margin-top: 1em;
+        
     }
 
     .redes{
         width: 100%;
     }
-    .separacion-redes{
-        padding: 0.8em;
-    }
-
-
-       
+      
 }
 
